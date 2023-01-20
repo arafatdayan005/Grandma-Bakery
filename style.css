@@ -1,3 +1,25 @@
-h1{
-    background-color: aqua;
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.color-p{
+    color: #ef7998;
+}
+.font-p{
+    font-family: 'Solitreo', cursive;
+}
+
+.navbar-toggler {
+    font-size: 1rem;
+    color: #ef7998;
+}
+
+.banner{
+    min-height: calc(100vh - 66px);
+    background-attachment: fixed;
+    background: linear-gradient(rgba(249, 228, 148, 0.5), rgba(249, 228, 148, 0.5)), url("img/headerBcg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
