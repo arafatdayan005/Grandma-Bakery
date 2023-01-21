@@ -38,3 +38,12 @@ body{
 .img-container:hover .store-img {
     transform: scale(1.2);
 }
+/* Services Section */
+.services{
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/servicesBcg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
