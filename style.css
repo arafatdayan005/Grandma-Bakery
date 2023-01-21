@@ -9,6 +9,10 @@ body{
 .font-p{
     font-family: 'Solitreo', cursive;
 }
+.btn-p:hover{
+    background-color: #ef7998;
+    color: white;
+}
 
 .navbar-toggler {
     font-size: 1rem;
